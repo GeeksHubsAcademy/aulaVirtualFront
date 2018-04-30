@@ -1,0 +1,47 @@
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+    height: 80px;
+  }
+  
+  .App-header {
+    background-color: rgb(255, 108, 10);
+    height: 150px;
+    padding: 20px;
+    color: rgb(65, 61, 61);
+  }
+  
+  .App-title {
+    font-size: 1.5em;
+    text-shadow: 1px 1px chocolate;
+    color: rgba(48, 44, 44, 0.918);
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+  
+  .Menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .Menu li {
+    display: inline-block;
+    padding: 0 30px;
+    cursor: pointer;
+  }
+
+  .Menu li a {
+    color:rgba(43, 38, 38, 0.651);
+  }
+
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
