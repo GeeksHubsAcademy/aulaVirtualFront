@@ -1,16 +1,20 @@
 
 import React, { Component } from 'react';
 import './css/Login.css';
+
+
 class Login extends Component {
   constructor() {
     super();
     this.state = {
       email:'',
-      password: '',
+      password: ''
     }
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleSubmitClick = this.handleSubmitClick.bind(this);
   }
+
+  
   handleInputChange(e) {
     const value = e.target.value;
     const id = e.target.id;
@@ -18,7 +22,10 @@ class Login extends Component {
       [id]: value
     });
   }
+
+
   handleSubmitClick(e) {
+    console.log(this.state);
     e.preventDefault();
     // this.setState({
     //   name: '',
@@ -38,6 +45,7 @@ class Login extends Component {
     });
   }
   render() {
+    console.log(this.state);
       return (
         <div class="w100">
           <div class="w80 center">
