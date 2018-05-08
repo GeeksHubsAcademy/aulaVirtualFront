@@ -8,4 +8,8 @@ export default [
       'title':'Login',
       'url'  :'/Login'
     },
+    {
+      'title':'Bootcamp',
+      'url':'/Bootcamp'
+    }
   ]
