@@ -24,8 +24,8 @@ render() {
     const { children } = this.props;
     return(
         <div>
-            <Header title="Header" items={ items } />
-            <Content body={ children } />
+            <Header title = "Header" items={ items } />
+            <Content body = { children } />
         </div>
     );
 }
